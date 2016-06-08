@@ -1,0 +1,136 @@
+html {
+	font-size:100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family:$headline-font;
+}
+
+body {
+	font-family:$headline-font;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:$headline-font;
+	font-weight:600;
+}
+
+
+//navigation
+
+#main-menu {
+	margin-left:10px;
+}
+
+
+
+.site-logo {
+	float:left;
+
+	  a 
+
+	    img {
+	    	max-width:200px;
+	    	display:inline-block;
+	    	width:100%;
+	    }
+}
+
+.nav-link {
+	text-transform:uppercase;
+	letter-spacing:1px;
+	padding-bottom:0px!important;
+
+		&:hover {
+			color:$brand-primary!important;
+			border-bottom:4px solid #cecece;
+		}
+
+}
+
+.menu-item {
+	border-right:1px solid #cecece;
+	padding-top:33px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.menu-item:last-child {
+	border-right:0px;
+}
+
+
+.bg-inverse {
+	background-color:transparent;
+		border-bottom:4px solid $brand-primary;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color:$brand-primary;
+}
+
+.first-menu {
+	font-family:$body-font;
+	font-weight:600;
+	color:$brand-primary;
+}
+
+
+//home 
+
+.wrapper {
+	padding-top:0px;
+}
+
+.triangle {
+	background-image:url(/wp-content/uploads/2016/06/BLUE-TRIANGLE.png);
+
+}
+
+.hero-headline {
+	position:absolute;
+	color:#fff;
+	top:20%;
+	right:25%;
+	left:25%;
+	text-align:center;
+}
+
+.up img {
+	width:100%;
+}
+
+.hero {
+	p{ 
+	position:absolute;
+	color:#fff;
+	top:20%;
+	left:30%;
+	right:30%;
+	font-size:2.5rem;
+	}
+}
+
+
+.text-wrap {
+	position:absolute;
+	max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+}
+
+.hello h1 {
+	top: 2%;
+    font-size: 4vw;
+    font-weight: 300;
+    color:#fff;
+}
+
+.hello p {
+	margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25vw;
+    color:#fff;
+}
